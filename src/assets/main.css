@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-space text-slate-100 font-display antialiased;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2
+           font-semibold transition active:scale-95 disabled:opacity-40
+           disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-portal text-space hover:bg-portal/90;
+  }
+  .btn-ghost {
+    @apply btn border border-slate-600 hover:border-portal;
+  }
+}
