@@ -4,6 +4,8 @@ Projekt iz kolegija **Korisnička sučelja** (FPMOZ). Vue 3 + Vite + Tailwind CS
 aplikacija koja dohvaća i prikazuje likove iz besplatnog javnog API-ja
 [Rick and Morty API](https://rickandmortyapi.com/).
 
+🔗 **Live demo:** https://sdzakic.github.io/rick-morty-explorer/
+
 ## Funkcionalnosti
 
 - 📡 HTTP zahtjevi preko **axios** (lista likova + detalj lika)
